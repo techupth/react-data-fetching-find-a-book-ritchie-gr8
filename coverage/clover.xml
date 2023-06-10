@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1686389793193" clover="3.2.0">
-  <project timestamp="1686389793193" name="All files">
+<coverage generated="1686390192812" clover="3.2.0">
+  <project timestamp="1686390192812" name="All files">
     <metrics statements="100" coveredstatements="98" conditionals="8" coveredconditionals="7" methods="3" coveredmethods="3" elements="111" coveredelements="108" complexity="0" loc="100" ncloc="100" packages="1" files="1" classes="1"/>
     <file name="App.jsx" path="/Users/Mu/workspace/auto-grading/react-hh-find-a-book/src/App.jsx">
       <metrics statements="100" coveredstatements="98" conditionals="8" coveredconditionals="7" methods="3" coveredmethods="3"/>
