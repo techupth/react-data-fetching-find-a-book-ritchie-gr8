@@ -1,6 +1,6 @@
 import { render, fireEvent, screen, waitFor } from "@testing-library/react";
 import { expect } from "vitest";
-import App from "./App";
+import App from "../src/App";
 import fs from "fs";
 import path from "path";
 
@@ -18,7 +18,7 @@ describe("Exercise 2", () => {
   });
 
   it("renders with 'useEffect' in the output", async () => {
-    const exercisePath = path.join(process.cwd(), "src/App.jsx");
+    const exercisePath = path.join(process.cwd(), "../src/App.jsx");
 
     const data = fs.readFileSync(exercisePath, "utf8");
 
@@ -26,7 +26,7 @@ describe("Exercise 2", () => {
   });
 
   it("renders with 'useState' in the output", async () => {
-    const exercisePath = path.join(process.cwd(), "src/App.jsx");
+    const exercisePath = path.join(process.cwd(), "../src/App.jsx");
 
     const data = fs.readFileSync(exercisePath, "utf8");
 
@@ -34,7 +34,7 @@ describe("Exercise 2", () => {
   });
 
   it("renders with 'key' in the output", () => {
-    const exercisePath = path.join(process.cwd(), "src/App.jsx");
+    const exercisePath = path.join(process.cwd(), "../src/App.jsx");
 
     const data = fs.readFileSync(exercisePath, "utf8");
 
